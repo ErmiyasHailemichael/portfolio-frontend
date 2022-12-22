@@ -13,7 +13,7 @@ function About(props) {
   //   // set the about state to the data
   //   setAbout(data);
   // };
-  
+
   // make an initial call for the data inside a useEffect, so it only happens once on component load
  useEffect( () => {
   async function getAboutData() {
@@ -31,9 +31,13 @@ function About(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
     <div>
-      <h2>{about.name}</h2>
+      <h2>{about.name} </h2> 
+      {/* // i want to pu this as a link */}
+      <img className="img" src="https://i.imgur.com/oijcvW5.jpg" alt='headshot of ermiyas' />
       <h3>{about.email}</h3>
+      <a href="https://github.com/ErmiyasHailemichael"> Github </a>
       <p>{about.bio}</p>
+      
     </div>
   );
 

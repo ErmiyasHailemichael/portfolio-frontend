@@ -16,7 +16,7 @@ function Footer(props) {
         </li>
         <li>
           <a href="https://twitter.com/">Twitter</a>
-          <a href="https://github.com/">Github</a>
+          <a href="https://github.com/ErmiyasHailemichael">Github</a>
           <a href="https://instagram.com/">Instagram</a>
         </li>
       </ul>
