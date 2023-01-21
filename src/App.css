@@ -3,6 +3,7 @@
 }
 
 .App-header {
+  text-decoration: none;
   background-color: white;
   min-height: 100vh;
   display: flex;
@@ -20,8 +21,6 @@ footer {
 
 footer ul {
   margin: 0;
-  padding: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -42,6 +41,29 @@ footer a:hover {
 }
 .img{
   border-radius:50%;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
+}
+
+.profileimg {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+
+  
+}
+
+.profileimg img {
+  width: 100%;
+  
+}
+
+
+.imgholder{
+  display: flex;
+  align-items: center;
+}
+li {
+  list-style: none;
 }
