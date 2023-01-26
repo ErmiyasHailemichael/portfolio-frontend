@@ -23,17 +23,17 @@ function Projects(props) {
       <div>
         <h1>{project.name}</h1>
         <img src={project.image} />
-        <a href={project.git}>
+        <a target="_blank" rel="noreferrer" href={project.git}>
           <button>Github</button>
         </a>
-        <a href={project.live}>
+        <a target="_blank" rel="noreferrer" href={project.live}>
           <button>live site</button>
         </a>
       </div>
     ));
   };
 
-  return projects ? loaded() : <h1>Loading...</h1>;
+  return projects ? loaded() : <i class="fa fa-spinner fa-spin" style={{ fontSize:"24px", textAlign: "center", display: 'block'}}></i>;
 }
 
 export default Projects;

@@ -35,7 +35,7 @@ function About(props) {
       {/* // i want to pu this as a link */}
       <img className="img" src="https://i.imgur.com/oijcvW5.jpg" alt='headshot of ermiyas' />
       <h3>{about.email}</h3>
-      <a href="https://github.com/ErmiyasHailemichael"> Github </a>
+      <a target="_blank" rel="noreferrer"href="https://github.com/ErmiyasHailemichael"> Github </a>
       <p>{about.bio}</p>
       
     </div>
